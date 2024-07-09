@@ -1,17 +1,7 @@
 package com.example.tobyspring6.payment;
 
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.ComponentScan;
 
-@Configuration
+@ComponentScan
 public class ObjectFactory {
-    @Bean
-    public PaymentService paymentService() {
-        return new PaymentService(exRateProvider());
-    }
-
-    @Bean
-    public ExRateProvider exRateProvider(){
-        return new SimpleExRateProvider();
-    }
 }
