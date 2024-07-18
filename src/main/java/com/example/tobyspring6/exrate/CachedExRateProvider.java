@@ -1,4 +1,6 @@
-package com.example.tobyspring6.payment;
+package com.example.tobyspring6.exrate;
+
+import com.example.tobyspring6.payment.ExRateProvider;
 
 import java.io.IOException;
 import java.math.BigDecimal;
