@@ -1,4 +1,4 @@
-package com.example.tobyspring6.payment;
+package com.example.tobyspring6.exrate;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
